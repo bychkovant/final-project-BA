@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Діяльність посередників</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>	
+ 		<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>		
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Комітет з питань статусу і трансферів футболістів, Федерація футболу, ФФУ, трансфери, футбольні посередники, ліцензія посередника, міжнародний трансфер, трансферний контракт, контракт на посередництво, transfer, football, Committee, FFU, Football Federation of Ukraine, football players" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+<!--style for my table-->
+<style>
+table, th , td  {
+    border: 1px rgba(82,26,224,1);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+table tr:nth-child(odd)	{
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+</style>
+    <!-- for-tables -->	
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	 <div class="container">
+		 <div class="logo">
+			   <h1><a href="index.html">Посередники</a></h1>
+		 </div>	
+		 <div class="top-menu">
+			 <span class="menu"></span>
+			  <ul>
+				 <li><a href="index.html">HOME</a></li>
+				 <li><a href="about.html">Про Комітет</a></li>
+				 <li class="active"><a href="intermediary.html">Посередники</a></li>
+				 <li><a href="contact.html">Контакти</a></li>
+			 </ul>			 
+		 </div>
+		 <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!-- //header -->
+<!-- banner -->
+<div class="strip">
+	 <div class="container">
+	 <div class="search">
+		    <form>
+		    	<input type="text" value="" placeholder="Search...">
+				<input type="submit" value="">
+			</form>
+     </div>     
+	 <div class="social">			 
+			 <a href="#"><i class="facebook"></i></a>
+			 <a href="#"><i class="twitter"></i></a>
+			 <a href="#"><i class="dribble"></i></a>	
+			 <a href="#"><i class="google"></i></a>	
+			 <a href="#"><i class="youtube"></i></a>	
+	 </div>
+		<div class="clearfix"></div>
+		</div>
+</div>
+<!-- banner -->
+<!-- //header -->
+<div class="container">
+		 <ol class="breadcrumb">
+		  <li><a href="index.html">Home</a></li>
+		  <li class="itermediary.html">Посередники</li>
+		 </ol>
+</div>
+<!-- inter -->
+
+	<div class="container">
+		 <h2>Особи, що мають ліцензію на здійснення посередницької діяльності у футболі</h2> <br>
+<!-- super table intermidiaries -->
+			<p>Для сортування за відповідною характеристикою - подвійний клік на заголовку рядка</p>	 
+		<table id="grid">
+    <thead>
+      <tr>
+        <th data-type="string">Имя</th>
+        <th data-type="string">Тип ліцензії</th>
+        <th data-type="string">Місто</th>
+        <th data-type="number">Номер ліцензії</th>
+        <th data-type="string">Дата завершення ліцензії</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Сергій Мельник</td>
+        <td>Індивідуальний посередник</td>
+        <td>Київ</td>
+        <td>5421</td>
+        <td>2016/04/25</td>
+      </tr>
+      <tr>
+        <td>Сергій Кікоть</td>
+        <td>Індивідуальний посередник</td>
+        <td>Київ</td>
+        <td>5427</td>
+        <td>2017/07/25</td>
+      </tr>
+      <tr>
+        <td>Олексій Кокс</td>
+        <td>Індивідуальний посередник</td>
+        <td>Харків</td>
+        <td>5462</td>
+        <td>2016/07/25</td>
+      </tr>
+      <tr>
+        <td>Олександр Сату</td>
+        <td>Індивідуальний посередник</td>
+        <td>Харків</td>
+        <td>5470</td>
+        <td>2018/11/28</td>
+      </tr>
+      <tr>
+        <td>Вільямсон ЛТД</td>
+        <td>Юридична особа</td>
+        <td>Лондон</td>
+        <td>5402</td>
+        <td>2018/04/25</td>
+      </tr>
+       <tr>
+        <td>Рона Браун</td>
+        <td>Індивідуальний посередник</td>
+        <td>Львів</td>
+        <td>5111</td>
+        <td>2016/08/15</td>
+      </tr>
+    </tbody>
+  </table>	
+<!-- super table intermidiaries -->	
+</div>
+
+<!-- inter -->
+
+<div class="featured-news">
+	 <div class="container">
+		 <div class="ftrd-head text-center">
+			 <h3>Найближчі події</h3>
+		 </div>
+		 <div class="event-grids">
+			 <div class="col-md-4 event-grid-sec">
+				 <div class="event-time text-center">
+					 <p>05/2016</p>
+				 </div>
+				 <div class="event-grid_pic">
+					 <img src="images/e1.jpg" alt=""/>
+					 <h3><a href="#"> Екзамен на отримання постійної ліцензії посередника</a></h3>
+					 <p>Екзамен на знання нормативних та регламентних документів відбудеться в Будинку Футболу ФФУ. Реєстрація на екзамен відбувається не пізніше ніж за 2 тижні до дати проведення екзамену. Детальна інформація за посиланням.</p>
+					 <div class="more"><a href="#">>Більше інформації</a></div>
+				 </div>
+			 </div>
+			 <div class="col-md-4 event-grid-sec">
+				 <div class="event-time text-center">
+					 <p>08/2016</p>
+				 </div>
+				 <div class="event-grid_pic">
+					 <img src="images/e3.jpg" alt=""/>
+					 <h3><a href="#">Семінар щодо процедури вирішення спорів між футболістами та футбольними клубами</a></h3>
+					 <p>Предметом обговорення на семінарі стануть питання вирішення спорів в органах футбольного судочинства: КДК ФФУ, АК ФФУ, Міжнародному арбітражному суді (CAS) м. Лозана, - а також остання практика щодо вирішення спорів щодо компенсацій футбольних клубів за підготовку футболістів</p>
+					 <div class="more"><a href="#">>Більше інформації</a></div>
+				 </div>
+			 </div>
+			 <div class="col-md-4 event-grid-sec">
+				 <div class="event-time text-center">
+					 <p>09/2016</p>
+				 </div>
+				 <div class="event-grid_pic">
+					 <img src="images/e2.jpg" alt=""/>
+					 <h3><a href="#">Визначення періодів трансферних вікон на 2017 рік</a></h3>
+					 <p>1 вересня 2016 року Комітет визначить дати початку і закінчення трансферних періодів для переходів футболістів-професіоналів на 2017 рік. Трансферні вікна для аматорських та регіональних змагань будуть уточнені в грудні 2016 року</p>
+					 <div class="more"><a href="#">>Більше інформації</a></div>
+				 </div>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+
+ 
+<!--footer-->
+<div class="footer">
+	 <div class="container">
+		 <div class="copywrite">
+			 <p> © AB </a> </p>
+		 </div>
+		 <div class="footer-menu">
+			 <ul>
+				 <li><a href="index.html">HOME</a></li>
+				 <li><a href="about.html">Про Комітет</a></li>
+				 <li><a href="intermediary.html">Посередники</a></li>
+				 <li><a href="contact.html">Контакти</a></li>
+			 </ul>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!-- //footer -->
+<!-- //crazy scrypt for table -->
+<script>
+var grid = document.getElementById('grid');
+
+    grid.onclick = function(e) {
+      if (e.target.tagName != 'TH') return;
+
+      sortGrid(e.target.cellIndex, e.target.getAttribute('data-type'));
+    };
+
+    function sortGrid(colNum, type) {
+      var tbody = grid.getElementsByTagName('tbody')[0];
+
+      // Составить массив состоит из тр
+      var rowsArray = [].slice.call(tbody.rows);
+
+      // определить функцию сравнения, по типу
+      var compare;
+
+      switch (type) {
+        case 'number':
+          compare = function(rowA, rowB) {
+            return rowA.cells[colNum].innerHTML - rowB.cells[colNum].innerHTML;
+          };
+          break;
+        case 'string':
+          compare = function(rowA, rowB) {
+            return rowA.cells[colNum].innerHTML > rowB.cells[colNum].innerHTML ? 1 : -1;
+          };
+          break;
+      }
+
+      // сортировать
+      rowsArray.sort(compare);
+      grid.removeChild(tbody);
+
+      // они автоматически будут вставлены в правильном порядке
+      for (var i = 0; i < rowsArray.length; i++) {
+        tbody.appendChild(rowsArray[i]);
+      }
+
+      grid.appendChild(tbody);
+
+    }
+</script>
+<!-- //crazy scrypt for table -->
+</body>
+</html>
